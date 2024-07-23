@@ -3,8 +3,10 @@ export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 
 	theme: {
-		extend: {}
+		extend: {fontFamily: {
+        'press-start': ['"Roboto"', 'sans-serif'],
+      },}
 	},
 
-	plugins: [require('@tailwindcss/typography')]
+	plugins: [require('@tailwindcss/typography'), require('daisyui')]
 };
