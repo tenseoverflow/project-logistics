@@ -32,6 +32,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"daisyui": "^4.12.10"
+		"daisyui": "^4.12.10",
+		"svelte-scrolling": "^1.4.0"
 	}
 }
