@@ -3,12 +3,12 @@
 </script>
 
 <main>
-	<div class="bg-gradient-to-r from-blue-400 to-white">
+	<div class="bg-gradient-to-r from-green-500 to-green-300">
 		<nav class="navbar flex-wrap gap-x-28 bg-transparent px-12 pt-12 lg:px-40">
 			<div class="flex-1">
 				<a class="btn btn-ghost text-2xl dark:text-black" href="/">
 					<!-- <img src="" alt="Logo" width="112" height="28"> -->
-					Project Logistics (LOGO SIIA)
+					Delyver
 				</a>
 			</div>
 			<div class="navbar-menu">
@@ -16,7 +16,7 @@
 					<a
 						class="navbar-item btn btn-ghost text-2xl dark:text-black"
 						href="#why"
-						use:scrollTo={'why'}>Why us</a
+						use:scrollTo={'why'}>Why choose us</a
 					>
 					<a
 						class="navbar-item btn btn-ghost text-2xl dark:text-black"
@@ -26,8 +26,8 @@
 				</div>
 			</div>
 		</nav>
-		<div class="z-0 max-w-4xl px-8 py-28 lg:px-40">
-			<h1 class="text-6xl font-bold dark:text-black">Streamline Your Supply Chain with Delyver.ai
+		<div class="z-0 max-w-5xl px-8 py-10 lg:py-28 lg:px-40">
+			<h1 class="text-3xl lg:text-6xl font-bold dark:text-black">Streamline Your Supply Chain with Delyver.ai
 </h1>
 			<p class="py-6 text-xl dark:text-black">
 				Leverage the power of AI to optimize shipping routes and reduce costs by up to 60%. Our network of verified warehouses in China ensures your orders are fulfilled swiftly and accurately.
@@ -49,7 +49,7 @@
 		class="flex flex-col flex-wrap items-center gap-10 px-16 py-20 text-center lg:px-72"
 		use:scrollRef={'why'}
 	>
-		<h2 class="m-auto text-5xl font-bold">Why us</h2>
+		<h2 class="m-auto text-5xl font-bold">Why choose us</h2>
 		<div id="trusted" class="flex flex-col flex-wrap items-center justify-center gap-8">
 			<h3 class="m-auto text-3xl font-bold">Trusted network</h3>
 			<p class="max-w-3xl text-xl">
@@ -69,15 +69,15 @@
 		<div id="numbers" class="flex w-full flex-col flex-wrap items-center gap-8">
 			<h3 class="m-auto text-3xl font-bold">Numbers</h3>
 			<div class="w-full">
-				<h4 class="w-full text-5xl text-blue-900">100%</h4>
+				<h4 class="w-full text-5xl text-green-900">100%</h4>
 				<p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 			</div>
 			<div class="w-full">
-				<h4 class="w-full text-5xl text-blue-900">100%</h4>
+				<h4 class="w-full text-5xl text-green-900">100%</h4>
 				<p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 			</div>
 			<div class="w-full">
-				<h4 class="w-full text-5xl text-blue-900">100%</h4>
+				<h4 class="w-full text-5xl text-green-900">100%</h4>
 				<p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 			</div>
 		</div>
@@ -94,7 +94,7 @@
 		<footer>
 			<div class="px-8 pb-16 lg:px-16">
 				<div class="flex flex-auto flex-wrap justify-between gap-2">
-					<p class="text-white">Project Logistics. All rights reserved.</p>
+					<p class="text-white">Delyver. All rights reserved.</p>
 					<p class="self-end text-right text-white">2024</p>
 				</div>
 			</div>
