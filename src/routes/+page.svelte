@@ -3,7 +3,7 @@
 </script>
 
 <main>
-    <div class="bg-gradient-to-r from-green-500 to-green-300 lg:h-screen">
+    <div class="bg-gradient-to-r from-green-500 to-green-300">
         <nav class="navbar flex-wrap gap-x-28 bg-transparent px-12 pt-12 lg:px-40">
             <div class="flex-1">
                 <a class="btn btn-ghost text-2xl dark:text-black" href="/">
@@ -39,7 +39,7 @@
                 <input class="input join-item" placeholder="Let's get in contact" type="email">
                 <button class="btn join-item">Talk to us</button>
             </div> -->
-            <a href="#" class="btn btn-primary bg-slate-100 hover:bg-slate-300 border-0 text-xl">Learn more</a>
+            <a href="#learn" use:scrollTo={'learn'} class="btn btn-primary bg-slate-100 hover:bg-slate-300 border-0 text-xl">Learn more</a>
             <a
                 href="#contact"
                 class="btn btn-primary border-0 bg-slate-900 text-xl text-white hover:bg-slate-950"
@@ -60,12 +60,12 @@
         </div>
     </div>
 
-    <div class="flex flex-col items-center gap-10 px-16 py-20 text-center lg:px-72">
+    <div id="learn" use:scrollRef={'learn'} class="flex flex-col items-center gap-10 px-16 py-20 text-center lg:px-72">
         <h2 class="m-auto text-3xl font-bold">Expand Your Reach, Shrink Your Impact</h2>
         <p class="m-auto text-xl">Global expansion doesn’t have to come at the expense of the environment. With Delyver.ai, you can grow your business across borders while keeping your environmental footprint to a minimum. Our AI-driven logistics solutions optimize every aspect of your supply chain, allowing you to receive your products in the most efficient and eco-friendly way possible.</p>
     </div>
 
-    <div class="flex flex-col items-center gap-10 px-16 py-20 text-center lg:px-72">
+    <div id="works" use:scrollRef={'works'} class="flex flex-col items-center gap-10 px-16 py-20 text-center lg:px-72">
         <h2 class="m-auto text-3xl font-bold">How it works</h2>
         <p class="m-auto text-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus placeat illum obcaecati autem qui minima labore tempore perferendis earum odit rerum explicabo consequuntur tempora, consectetur cumque dignissimos ipsum eum quam?</p>
     </div>
