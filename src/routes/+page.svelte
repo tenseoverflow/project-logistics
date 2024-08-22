@@ -27,11 +27,10 @@
 			</div>
 		</nav>
 		<div class="z-0 max-w-4xl px-8 py-28 lg:px-40">
-			<h1 class="text-6xl font-bold dark:text-black">Project Logistics</h1>
+			<h1 class="text-6xl font-bold dark:text-black">Streamline Your Supply Chain with Delyver.ai
+</h1>
 			<p class="py-6 text-xl dark:text-black">
-				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut deleniti earum fugit unde
-				adipisci ex corporis vel eligendi animi dignissimos suscipit sit, eveniet odio
-				exercitationem ipsa modi eos ad nam.
+				Leverage the power of AI to optimize shipping routes and reduce costs by up to 60%. Our network of verified warehouses in China ensures your orders are fulfilled swiftly and accurately.
 			</p>
 			<!-- <div class="join">
                 <input class="input join-item" placeholder="Let's get in contact" type="email">
