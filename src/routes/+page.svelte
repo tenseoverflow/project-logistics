@@ -131,7 +131,7 @@
 				</p>
 			</div>
 			<div class="artboard artboard-horizontal lg:w-1/2">
-				<img src="undraw_environment_iaus.svg" alt="earth" class="m-auto rounded-xl shadow-xl" />
+				<img src="undraw_firmware_re_fgdy.svg" alt="earth" class="m-auto rounded-xl" />
 			</div>
 		</div>
 
@@ -146,7 +146,7 @@
 				</p>
 			</div>
 			<div class="artboard artboard-horizontal lg:w-1/2">
-				<img src="undraw_firmware_re_fgdy.svg" alt="earth" class="m-auto rounded-xl shadow-xl" />
+				<img src="undraw_logistics_x-4-dc.svg" alt="earth" class="m-auto rounded-xl" />
 			</div>
 		</div>
 
@@ -160,7 +160,7 @@
 				</p>
 			</div>
 			<div class="artboard artboard-horizontal lg:w-1/2">
-				<img src="undraw_logistics_x-4-dc.svg" alt="earth" class="m-auto rounded-xl shadow-xl" />
+				<img src="undraw_environment_iaus.svg" alt="earth" class="m-auto rounded-xl" />
 			</div>
 		</div>
 	</div>
@@ -170,7 +170,7 @@
 			<h2 class="py-3 text-center text-5xl font-bold text-white">Contact us</h2>
 			<div class="text-center">
 				<p class="py-6 text-xl text-white">Let's take your logistics to the next level!</p>
-				<form action="" method="get" class="flex flex-col gap-3 lg:px-60">
+				<form action="" method="get" class="flex flex-col gap-3 xl:px-60">
 					<label class="input input-bordered flex items-center gap-2">
 						Name
 						<input type="text" class="grow" placeholder="Delyver.ai" />
