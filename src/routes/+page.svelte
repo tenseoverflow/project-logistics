@@ -9,7 +9,7 @@
 			<div class="flex-1">
 				<a class="btn btn-ghost text-2xl dark:text-black" href="/">
 					<!-- <img src="" alt="Logo" width="112" height="28"> -->
-					Delyver.ai
+					Delyver
 				</a>
 			</div>
 			<div class="navbar-menu">
@@ -189,7 +189,7 @@
 				<div class="flex flex-auto flex-wrap justify-between gap-2">
 					<p class="text-white">Delyver. All rights reserved. 2024</p>
 					<p class="self-end text-right text-white">
-						<a href="mailto:example@example.com" class="link text-white">hello@delyver.ai</a>
+						<a href="mailto:contact@delyver.eu" class="link text-white">contact@delyver.eu</a>
 					</p>
 				</div>
 			</div>
