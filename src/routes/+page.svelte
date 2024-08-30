@@ -131,11 +131,7 @@
 				</p>
 			</div>
 			<div class="artboard artboard-horizontal lg:w-1/2">
-				<img
-					src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd.ibtimes.co.uk%2Fen%2Ffull%2F1608141%2Fearth-from-space.jpg%3Fw%3D1180&f=1&nofb=1&ipt=e7e98864aef7a366b50329a750192007ac2f2a054f65478e0618e2f0beb3552b&ipo=images vecteezy_worldwide-shipping-concept-with-globe-airplane-van-boat_40747157.png"
-					alt="earth"
-					class="m-auto rounded-xl shadow-xl"
-				/>
+				<img src="undraw_environment_iaus.svg" alt="earth" class="m-auto rounded-xl shadow-xl" />
 			</div>
 		</div>
 
@@ -150,11 +146,7 @@
 				</p>
 			</div>
 			<div class="artboard artboard-horizontal lg:w-1/2">
-				<img
-					src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd.ibtimes.co.uk%2Fen%2Ffull%2F1608141%2Fearth-from-space.jpg%3Fw%3D1180&f=1&nofb=1&ipt=e7e98864aef7a366b50329a750192007ac2f2a054f65478e0618e2f0beb3552b&ipo=images"
-					alt="earth"
-					class="m-auto rounded-xl shadow-xl"
-				/>
+				<img src="undraw_firmware_re_fgdy.svg" alt="earth" class="m-auto rounded-xl shadow-xl" />
 			</div>
 		</div>
 
@@ -168,11 +160,7 @@
 				</p>
 			</div>
 			<div class="artboard artboard-horizontal lg:w-1/2">
-				<img
-					src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd.ibtimes.co.uk%2Fen%2Ffull%2F1608141%2Fearth-from-space.jpg%3Fw%3D1180&f=1&nofb=1&ipt=e7e98864aef7a366b50329a750192007ac2f2a054f65478e0618e2f0beb3552b&ipo=images"
-					alt="earth"
-					class="m-auto rounded-xl shadow-xl"
-				/>
+				<img src="undraw_logistics_x-4-dc.svg" alt="earth" class="m-auto rounded-xl shadow-xl" />
 			</div>
 		</div>
 	</div>
