@@ -71,15 +71,29 @@
 		class="flex flex-col items-center gap-10 px-16 py-20 text-center lg:px-72"
 	>
 		<h2 class="m-auto text-3xl font-bold">Grow Globally, Go Green</h2>
-		<p class="m-auto text-xl">
+		<p class="m-auto text-2xl">
 			Expand your business without compromising the planet. With Delyver.ai, you can scale across
 			borders while minimizing your environmental impact. Our AI-powered logistics solutions
 			optimize your supply chain, ensuring your products reach their destination in the most
 			efficient and eco-friendly way possible.
 		</p>
+		<div class="align-center flex flex-row flex-wrap items-center gap-x-40">
+			<div class="">
+				<h2 class="text-6xl font-bold text-primary">100%</h2>
+				<p class="text-xl">Emissions reduction</p>
+			</div>
+			<div class="">
+				<h2 class="text-6xl font-bold text-primary">50%</h2>
+				<p class="text-xl">Costs reduction</p>
+			</div>
+		</div>
 	</div>
 
-	<div id="works" use:scrollRef={'works'} class="flex flex-col gap-10 px-16 py-20 lg:px-72">
+	<div
+		id="works"
+		use:scrollRef={'works'}
+		class="flex flex-col gap-10 bg-gray-100 px-16 py-20 lg:px-72"
+	>
 		<h2 class="m-auto text-3xl font-bold">How it works</h2>
 		<div class="flex flex-row gap-2 align-middle">
 			<div class="text-xl">
@@ -119,7 +133,7 @@
 		use:scrollRef={'why'}
 	>
 		<h2 class="m-auto text-5xl font-bold">Why choose us</h2>
-		<div id="verified" class="flex flex-col justify-center gap-8 lg:flex-row">
+		<div id="verified" class="flex flex-col justify-center gap-8 align-middle lg:flex-row">
 			<div class="text-left lg:w-1/2">
 				<h3 class="m-auto pb-4 text-3xl font-bold">AI-Driven Shipping Optimization</h3>
 				<p class="text-xl">
@@ -135,7 +149,7 @@
 			</div>
 		</div>
 
-		<div id="" class="flex flex-col justify-center gap-8 lg:flex-row-reverse">
+		<div id="" class="flex flex-col justify-center gap-8 align-middle lg:flex-row-reverse">
 			<div class="text-left lg:w-1/2">
 				<h3 class="m-auto pb-4 text-3xl font-bold">Trusted Warehousing in China</h3>
 				<p class="text-xl">
@@ -150,7 +164,7 @@
 			</div>
 		</div>
 
-		<div id="trusted" class="flex flex-col justify-center gap-8 lg:flex-row">
+		<div id="trusted" class="flex flex-col justify-center gap-8 align-middle lg:flex-row">
 			<div class="text-left lg:w-1/2">
 				<h3 class="m-auto pb-4 text-3xl font-bold">Smart, Cost-Effective Solutions</h3>
 				<p class="text-xl">
