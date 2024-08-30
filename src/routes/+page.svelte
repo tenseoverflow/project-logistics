@@ -70,12 +70,12 @@
 		use:scrollRef={'learn'}
 		class="flex flex-col items-center gap-10 px-16 py-20 text-center lg:px-72"
 	>
-		<h2 class="m-auto text-3xl font-bold">Expand Your Reach, Shrink Your Impact</h2>
+		<h2 class="m-auto text-3xl font-bold">Grow Globally, Go Green</h2>
 		<p class="m-auto text-xl">
-			Global expansion doesn’t have to come at the expense of the environment. With Delyver.ai, you
-			can grow your business across borders while keeping your environmental footprint to a minimum.
-			Our AI-driven logistics solutions optimize every aspect of your supply chain, allowing you to
-			receive your products in the most efficient and eco-friendly way possible.
+			Expand your business without compromising the planet. With Delyver.ai, you can scale across
+			borders while minimizing your environmental impact. Our AI-powered logistics solutions
+			optimize your supply chain, ensuring your products reach their destination in the most
+			efficient and eco-friendly way possible.
 		</p>
 	</div>
 
@@ -83,35 +83,31 @@
 		<h2 class="m-auto text-3xl font-bold">How it works</h2>
 		<div class="flex flex-row gap-2 align-middle">
 			<div class="text-xl">
-				<h3 class="font-bold">1. Submit your order details</h3>
+				<h3 class="font-bold">1. Tell Us About Your Shipment</h3>
 				<p class="">
-					Provide us with the specifics of your shipment, including origin, destination, product
-					type, and any special requirements. Our system then analyzes your needs to create a
-					customized logistics plan.
+					Share your shipment details—where it’s coming from, where it’s going, and what’s inside.
+					We’ll take it from there, crafting a logistics plan tailored just for you.
 				</p>
 			</div>
 			<div class="text-xl">
-				<h3 class="font-bold">2. AI-Optimized Route Generation</h3>
+				<h3 class="font-bold">2. Smart Route Planning</h3>
 				<p class="">
-					Our advanced AI algorithms get to work, calculating the most efficient and cost-effective
-					shipping routes. By analyzing real-time data and various logistics factors, we ensure the
-					fastest delivery at the lowest possible cost.
+					Our AI goes to work, finding the fastest and most affordable shipping routes. It crunches
+					real-time data to get your goods where they need to be, fast.
 				</p>
 			</div>
 			<div class="text-xl">
-				<h3 class="font-bold">3. Secure Warehousing and Fulfillment</h3>
+				<h3 class="font-bold">3. Safe and Sound Storage</h3>
 				<p class="">
-					Your products are stored and managed in our network of verified, high-quality warehouses
-					in China. Our partners ensure that your goods are handled with care and precision, ready
-					for timely dispatch.
+					Your products are securely stored in our top-tier warehouses in China, handled with the
+					utmost care, and prepped for quick dispatch.
 				</p>
 			</div>
 			<div class="text-xl">
-				<h3 class="font-bold">4. Fast and Reliable Shipping</h3>
+				<h3 class="font-bold">4. Speedy Delivery You Can Track</h3>
 				<p class="">
-					Once your order is ready, it is shipped using the AI-generated route. You can track your
-					shipment in real-time as it moves swiftly through the optimized path, ensuring on-time
-					delivery at a fraction of the cost.
+					When your order’s ready, it’s shipped along the optimized route. Track it in real-time as
+					it zips through to its destination—on time, and on budget.
 				</p>
 			</div>
 		</div>
@@ -125,13 +121,13 @@
 		<h2 class="m-auto text-5xl font-bold">Why choose us</h2>
 		<div id="verified" class="flex flex-col justify-center gap-8 lg:flex-row">
 			<div class="text-left lg:w-1/2">
-				<h3 class="m-auto pb-4 text-3xl font-bold">AI-Powered Optimization</h3>
+				<h3 class="m-auto pb-4 text-3xl font-bold">AI-Driven Shipping Optimization</h3>
 				<p class="text-xl">
-					Our advanced AI algorithms meticulously analyze vast amounts of data to design the most
-					efficient and cost-effective shipping routes, ensuring your products are delivered faster
-					and at significantly lower costs. This technology allows us to constantly adapt and
-					optimize, providing you with a logistics solution that evolves alongside your business
-					needs."
+					Harness the power of advanced AI to revolutionize your logistics. Our intelligent
+					algorithms dive deep into data to craft the fastest, most cost-efficient shipping routes,
+					delivering your products quicker while slashing costs. Stay ahead with a dynamic solution
+					that adapts and evolves with your business, ensuring optimal performance every step of the
+					way.
 				</p>
 			</div>
 			<div class="artboard artboard-horizontal lg:w-1/2">
@@ -145,12 +141,12 @@
 
 		<div id="" class="flex flex-col justify-center gap-8 lg:flex-row-reverse">
 			<div class="text-left lg:w-1/2">
-				<h3 class="m-auto pb-4 text-3xl font-bold">Verified Warehousing in China</h3>
+				<h3 class="m-auto pb-4 text-3xl font-bold">Trusted Warehousing in China</h3>
 				<p class="text-xl">
-					We have established partnerships with a network of thoroughly vetted and verified
-					warehouses across China, ensuring that your goods are stored and handled with the utmost
-					care and precision. This reliable infrastructure supports seamless order fulfillment,
-					helping you maintain a consistent and high-quality supply chain."
+					Partner with confidence. Our carefully vetted network of verified warehouses across China
+					ensures your goods are stored with the highest standards of care and precision. This
+					dependable infrastructure guarantees seamless order fulfillment, keeping your supply chain
+					consistent and high-quality.
 				</p>
 			</div>
 			<div class="artboard artboard-horizontal lg:w-1/2">
@@ -164,12 +160,11 @@
 
 		<div id="trusted" class="flex flex-col justify-center gap-8 lg:flex-row">
 			<div class="text-left lg:w-1/2">
-				<h3 class="m-auto pb-4 text-3xl font-bold">Cost-Effective Solutions</h3>
+				<h3 class="m-auto pb-4 text-3xl font-bold">Smart, Cost-Effective Solutions</h3>
 				<p class="text-xl">
-					By leveraging our AI-driven approach, we help you save up to 60% on your logistics costs
-					compared to traditional methods. Our focus on efficiency doesn't just reduce expenses; it
-					enhances your overall operational effectiveness, allowing you to allocate resources more
-					strategically and boost your bottom line
+					Save up to 60% on logistics with our AI-driven approach. We go beyond cutting costs—our
+					efficiency-first strategy enhances your entire operation, freeing up resources for smarter
+					investments and driving your bottom line.
 				</p>
 			</div>
 			<div class="artboard artboard-horizontal lg:w-1/2">
