@@ -5,33 +5,41 @@
 
 <main>
 	<div class="bg-gradient-to-r from-green-500 to-green-300">
-		<nav class="navbar flex-wrap gap-x-28 bg-transparent px-12 pt-12 lg:px-40">
-			<div class="flex-1">
+		<nav class="top-nav navbar gap-x-28 bg-transparent px-12 pt-16 lg:px-40 lg:pt-12">
+			<div class="md:flex-1">
 				<a class="btn btn-ghost text-2xl dark:text-black" href="/">
 					<!-- <img src="" alt="Logo" width="112" height="28"> -->
 					Delyver
 				</a>
 			</div>
 			<div class="navbar-menu">
-				<div class="flex flex-wrap gap-2 lg:flex-row">
-					<a
-						class="navbar-item btn btn-ghost text-2xl dark:text-black"
-						href="#why"
-						use:scrollTo={'why'}>Why choose us</a
-					>
-					<a
-						class="navbar-item btn btn-ghost text-2xl dark:text-black"
-						href="#contact"
-						use:scrollTo={'contact'}>Contact</a
-					>
-				</div>
+				<input id="menu-toggle" type="checkbox" />
+				<label class="menu-button-container" for="menu-toggle">
+					<div class="menu-button"></div>
+				</label>
+				<ul class="menu flex-nowrap">
+					<li>
+						<a
+							class="navbar-item btn btn-ghost text-2xl dark:text-black"
+							href="#why"
+							use:scrollTo={'why'}>Why choose us</a
+						>
+					</li>
+					<li>
+						<a
+							class="navbar-item btn btn-ghost text-2xl dark:text-black"
+							href="#contact"
+							use:scrollTo={'contact'}>Contact</a
+						>
+					</li>
+				</ul>
 			</div>
 		</nav>
-		<div class="px-8 py-10 lg:py-24 lg:pl-40">
+		<div class="px-8 py-8 lg:py-24 lg:pl-40">
 			<div class="flex flex-col content-between justify-center gap-4 p-4 lg:flex-row">
 				<div class="z-0 max-w-5xl">
 					<h1 class="text-3xl font-bold lg:text-6xl dark:text-black">
-						Streamline Your Supply Chain with Delyver.ai
+						Streamline Your Supply Chain with Delyver
 					</h1>
 					<p class="py-6 text-xl dark:text-black">
 						Leverage the power of AI to optimize shipping routes and reduce costs by up to 60%. Our
@@ -45,7 +53,8 @@
 					<a
 						href="#learn"
 						use:scrollTo={'learn'}
-						class="btn btn-primary border-0 bg-slate-100 text-xl hover:bg-slate-300">Learn more</a
+						class="btn btn-primary mb-1 border-0 bg-slate-100 text-xl hover:bg-slate-300 sm:mb-0"
+						>Learn more</a
 					>
 					<a
 						href="#contact"
@@ -72,12 +81,12 @@
 	>
 		<h2 class="m-auto text-3xl font-bold">Grow Globally, Go Green</h2>
 		<p class="m-auto text-2xl">
-			Expand your business without compromising the planet. With Delyver.ai, you can scale across
+			Expand your business without compromising the planet. With Delyver, you can scale across
 			borders while minimizing your environmental impact. Our AI-powered logistics solutions
 			optimize your supply chain, ensuring your products reach their destination in the most
 			efficient and eco-friendly way possible.
 		</p>
-		<div class="align-center flex flex-row flex-wrap items-center gap-x-40">
+		<div class="align-center flex flex-col flex-wrap items-center gap-x-40 lg:flex-row">
 			<div class="">
 				<h2 class="text-6xl font-bold text-primary">100%</h2>
 				<p class="text-xl">Emissions reduction</p>
@@ -95,7 +104,7 @@
 		class="flex flex-col gap-10 bg-gray-100 px-16 py-20 lg:px-72"
 	>
 		<h2 class="m-auto text-3xl font-bold">How it works</h2>
-		<div class="flex flex-row gap-2 align-middle">
+		<div class="flex flex-row flex-wrap gap-2 align-middle lg:flex-nowrap">
 			<div class="text-xl">
 				<h3 class="font-bold">1. Tell Us About Your Shipment</h3>
 				<p class="">
@@ -133,7 +142,10 @@
 		use:scrollRef={'why'}
 	>
 		<h2 class="m-auto text-5xl font-bold">Why choose us</h2>
-		<div id="verified" class="flex flex-col justify-center gap-8 align-middle lg:flex-row">
+		<div
+			id=""
+			class="flex flex-col-reverse items-center justify-center gap-8 align-middle lg:flex-row"
+		>
 			<div class="text-left lg:w-1/2">
 				<h3 class="m-auto pb-4 text-3xl font-bold">AI-Driven Shipping Optimization</h3>
 				<p class="text-xl">
@@ -149,7 +161,10 @@
 			</div>
 		</div>
 
-		<div id="" class="flex flex-col justify-center gap-8 align-middle lg:flex-row-reverse">
+		<div
+			id=""
+			class="flex flex-col-reverse items-center justify-center gap-8 align-middle lg:flex-row-reverse"
+		>
 			<div class="text-left lg:w-1/2">
 				<h3 class="m-auto pb-4 text-3xl font-bold">Trusted Warehousing in China</h3>
 				<p class="text-xl">
@@ -164,7 +179,10 @@
 			</div>
 		</div>
 
-		<div id="trusted" class="flex flex-col justify-center gap-8 align-middle lg:flex-row">
+		<div
+			id="trusted"
+			class="flex flex-col-reverse items-center justify-center gap-8 align-middle lg:flex-row"
+		>
 			<div class="text-left lg:w-1/2">
 				<h3 class="m-auto pb-4 text-3xl font-bold">Smart, Cost-Effective Solutions</h3>
 				<p class="text-xl">
@@ -184,14 +202,14 @@
 			<h2 class="py-3 text-center text-5xl font-bold text-white">Contact us</h2>
 			<div class="text-center">
 				<p class="py-6 text-xl text-white">Let's take your logistics to the next level!</p>
-				<form action="" method="get" class="flex flex-col gap-3 xl:px-60">
+				<form action="/api/contact" method="POST" class="flex flex-col gap-3 xl:px-60">
 					<label class="input input-bordered flex items-center gap-2">
 						Name
-						<input type="text" class="grow" placeholder="Delyver.ai" />
+						<input type="text" class="grow" placeholder="Delyver" />
 					</label>
 					<label class="input input-bordered flex items-center gap-2">
 						Email
-						<input type="text" class="grow" placeholder="delyver@delyver.ai" />
+						<input type="email" class="grow" placeholder="delyver@delyver.eu" />
 					</label>
 					<textarea class="textarea textarea-bordered textarea-md" placeholder="Message" />
 					<button class="btn btn-primary border-0" type="submit">Send</button>
