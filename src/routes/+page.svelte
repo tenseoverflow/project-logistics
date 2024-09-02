@@ -202,16 +202,31 @@
 			<h2 class="py-3 text-center text-5xl font-bold text-white">Contact us</h2>
 			<div class="text-center">
 				<p class="py-6 text-xl text-white">Let's take your logistics to the next level!</p>
-				<form action="/api/contact" method="POST" class="flex flex-col gap-3 xl:px-60">
+				<form
+					action="https://formspree.io/f/xeojdoqo"
+					method="POST"
+					class="flex flex-col gap-3 xl:px-60"
+				>
 					<label class="input input-bordered flex items-center gap-2">
 						Name
-						<input type="text" class="grow" placeholder="Delyver" />
+						<input required type="text" name="name" class="grow" placeholder="Delyver" />
 					</label>
 					<label class="input input-bordered flex items-center gap-2">
 						Email
-						<input type="email" class="grow" placeholder="delyver@delyver.eu" />
+						<input
+							required
+							type="email"
+							name="email"
+							class="grow"
+							placeholder="delyver@delyver.eu"
+						/>
 					</label>
-					<textarea class="textarea textarea-bordered textarea-md" placeholder="Message" />
+					<textarea
+						name="message"
+						class="textarea textarea-bordered textarea-md"
+						placeholder="Message"
+						required
+					/>
 					<button class="btn btn-primary border-0" type="submit">Send</button>
 				</form>
 			</div>
