@@ -105,34 +105,44 @@
 	>
 		<h2 class="m-auto text-3xl font-bold">How it works</h2>
 		<div class="flex flex-row flex-wrap gap-2 align-middle lg:flex-nowrap">
-			<div class="text-xl">
-				<h3 class="font-bold">1. Tell Us About Your Shipment</h3>
-				<p class="">
-					Share your shipment details—where it’s coming from, where it’s going, and what’s inside.
-					We’ll take it from there, crafting a logistics plan tailored just for you.
-				</p>
-			</div>
-			<div class="text-xl">
-				<h3 class="font-bold">2. Smart Route Planning</h3>
-				<p class="">
-					Our AI goes to work, finding the fastest and most affordable shipping routes. It crunches
-					real-time data to get your goods where they need to be, fast.
-				</p>
-			</div>
-			<div class="text-xl">
-				<h3 class="font-bold">3. Safe and Sound Storage</h3>
-				<p class="">
-					Your products are securely stored in our top-tier warehouses in China, handled with the
-					utmost care, and prepped for quick dispatch.
-				</p>
-			</div>
-			<div class="text-xl">
-				<h3 class="font-bold">4. Speedy Delivery You Can Track</h3>
-				<p class="">
-					When your order’s ready, it’s shipped along the optimized route. Track it in real-time as
-					it zips through to its destination—on time, and on budget.
-				</p>
-			</div>
+			<ul class="steps steps-vertical xl:steps-horizontal">
+				<li class="step step-primary">
+					<div class="text-xl">
+						<h3 class="font-bold">Tell Us About Your Shipment</h3>
+						<p class="">
+							Share your shipment details—where it’s coming from, where it’s going, and what’s
+							inside. We’ll take it from there, crafting a logistics plan tailored just for you.
+						</p>
+					</div>
+				</li>
+				<li class="step step-primary">
+					<div class="text-xl">
+						<h3 class="font-bold">Smart Route Planning</h3>
+						<p class="">
+							Our AI goes to work, finding the fastest and most affordable shipping routes. It
+							crunches real-time data to get your goods where they need to be, fast.
+						</p>
+					</div>
+				</li>
+				<li class="step step-primary">
+					<div class="text-xl">
+						<h3 class="font-bold">Safe and Sound Storage</h3>
+						<p class="">
+							Your products are securely stored in our top-tier warehouses in China, handled with
+							the utmost care, and prepped for quick dispatch.
+						</p>
+					</div>
+				</li>
+				<li class="step step-primary">
+					<div class="text-xl">
+						<h3 class="font-bold">Speedy Delivery You Can Track</h3>
+						<p class="">
+							When your order’s ready, it’s shipped along the optimized route. Track it in real-time
+							as it zips through to its destination—on time, and on budget.
+						</p>
+					</div>
+				</li>
+			</ul>
 		</div>
 	</div>
 
@@ -200,7 +210,7 @@
 	<div class=" bg-slate-900">
 		<div use:scrollRef={'contact'} id="contact" class="px-16 py-20 lg:px-96">
 			<h2 class="py-3 text-center text-5xl font-bold text-white">Contact us</h2>
-			<div class="text-center">
+			<div class="min-w-64 text-center">
 				<p class="py-6 text-xl text-white">Let's take your logistics to the next level!</p>
 				<form
 					action="https://formspree.io/f/xeojdoqo"
