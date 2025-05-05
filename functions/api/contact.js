@@ -32,7 +32,11 @@ async function handleRequest({ request }) {
 }
 
 async function validateToken(ip, token) {
-  const TURNSTILE_SECRET_KEY = "0x4AAAAAAAih36050i28SvCMo2pLt-9KZXw";
+  const TURNSTILE_SECRET_KEY = context.env.TURNSTILE_SECRET_KEY;
+
+  if (!TURNSTILE_SECRET_KEY) {
+    throw new Error("Turnstile secret key is not configured");
+  }
 
   const formData = new FormData();
   formData.append("secret", TURNSTILE_SECRET_KEY);
@@ -53,14 +57,19 @@ async function validateToken(ip, token) {
 
 async function forwardMessage(name, email, message) {
   // Forward the message to an email address, webhook etc.
+  
+  const SENDGRID_API_KEY = context.env.SENDGRID_API_KEY;
+  
+  if (!SENDGRID_API_KEY) {
+    throw new Error("SendGrid API key is not configured");
+  }
 
-    sgMail.setApiKey("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")
-    const msg = {
-      to: "contact@hen.ee",
-      from: "henri@noreply.kiipy.ee",
-      subject: "Form",
-      text: "Name: " + name + "\nEmail: " + email + "\nMessage: " + message,
-    };
-    sgMail.send(msg).then(() => { console.log("Message sent")}).catch((error) => { console.error(error)});
-
+  sgMail.setApiKey(SENDGRID_API_KEY);
+  const msg = {
+    to: "contact@hen.ee",
+    from: "henri@noreply.kiipy.ee",
+    subject: "Form",
+    text: "Name: " + name + "\nEmail: " + email + "\nMessage: " + message,
+  };
+  sgMail.send(msg).then(() => { console.log("Message sent")}).catch((error) => { console.error(error)});
 }
