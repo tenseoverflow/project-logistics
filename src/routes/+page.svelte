@@ -244,7 +244,7 @@
 		<footer>
 			<div class="px-8 pb-16 lg:px-16">
 				<div class="flex flex-auto flex-wrap justify-between gap-2">
-					<p class="text-white">Delyver. All rights reserved. 2024</p>
+					<p class="text-white">Delyver. All rights reserved. 2024-{new Date().getFullYear()}</p>
 					<p class="self-end text-right text-white">
 						<a href="mailto:contact@delyver.eu" class="link text-white">contact@delyver.eu</a>
 					</p>
